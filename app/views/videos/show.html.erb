@@ -3,6 +3,13 @@
 <%= render @video %>
 
 <div>
+  <% if @video.content.attached?%>
+    <div>
+      <video controls="true" poster="#{url_for @video.video_thumbnail if @video.video_thumbnail.present?}" width="100%" height="300px" preload="metadata" controlslist="nodownload">
+        <source src="<%= rails_blob_url(@video.content) %>" type="<%= @video.content.content_type %>"></source>
+      </video>
+    </div>
+  <% end %>
   <%= link_to "Edit this video", edit_video_path(@video) %> |
   <%= link_to "Back to videos", videos_path %>
 

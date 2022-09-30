@@ -18,7 +18,17 @@
 
   <div>
     <%= form.label :description, style: "display: block" %>
-    <%= form.text_area :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div>
+    <%= form.label :content, style: "display: block" %>
+    <%= form.file_field :content %>
+  </div>
+
+  <div>
+    <%= form.label :video_thumbnail, style: "display: block" %>
+    <%= form.file_field :video_thumbnail %>
   </div>
 
   <div>

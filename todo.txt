@@ -1,0 +1,8 @@
+
+
+
+
+
+- add login with google
+- add recaptcha to signup
+- add sistema de analise para novos uploads, assim como no social network
