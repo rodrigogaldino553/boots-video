@@ -1,8 +1,18 @@
 * Proximos passos
+  = ajeitar o usuario pra que seja possivel edita-lo com os custom fields e tudo mais
+  = add method de username
   = criar usuario com(name, avatar, username(vai ser o split do @))
 	  + pro visual do formulario pensei em fazer com algumas divisões sutis entre cada seção, com o avatar centralizado no topo
 		+ lembrar de ajustar aqueles detalhes do users controllers
-
+  
+	= criar comentarios
+	= ajustar views
+		+ criar partials como header, footer, alerts
+		+ add font awesome
+		+ criar layout simples das telas com bootstrap
+		+ add video-js ou outra lib assim pra estilizar o player de videos
+	= add sistema de likes nos videos
+	= add sistema de seguir usuarios
 
 - add rolebase
 - add login with google
