@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: boots_video_production
+  username: boots_video
+  password: <%= ENV['BOOTS_VIDEO_DATABASE_PASSWORD'] %>
