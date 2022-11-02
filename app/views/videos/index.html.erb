@@ -1,13 +1,10 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Videos</h1>
+<h1>Home</h1>
 
-<div id="videos">
+<div id="videos" class="card-group">
   <% @videos.each do |video| %>
-    <%= render video %>
-    <p>
-      <%= link_to "Show this video", video %>
-    </p>
+    <%= render 'videos/video_preview', video: video %>
   <% end %>
 </div>
 
