@@ -8,6 +8,7 @@
 
 	= criar comentarios
 	= ajustar views
+    + fix bootstrap js issue
 		+ criar partials como header, footer, alerts
 		+ add font awesome
 		+ criar layout simples das telas com bootstrap
